@@ -1,0 +1,60 @@
+.sos {
+  min-height: 100vh;
+  background-color: #0f0f0f;
+  color: #eaeaea;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.back-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+
+  background: none;
+  border: none;
+  color: #aaa;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  color: #fff;
+}
+
+.sos-title {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  letter-spacing: 1px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.flash-btn,
+.sos-btn {
+  padding: 1.2rem 3rem;
+  font-size: 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+
+  background-color: #1a1a1a;
+  color: #eaeaea;
+  border: 1px solid #2a2a2a;
+
+  transition: background 0.2s ease, border 0.2s ease;
+}
+
+.flash-btn:hover,
+.sos-btn:hover {
+  background-color: #222;
+  border-color: #444;
+}
