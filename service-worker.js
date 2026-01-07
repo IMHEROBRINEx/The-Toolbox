@@ -2,7 +2,7 @@ const CACHE_NAME = "the-toolbox-cache-v1";
 
 const FILES_TO_CACHE = [
   "/",
-  "/index.html",
+  "index.html",
   "/src/app.js",
   "/src/styles/global.css"
 ];
