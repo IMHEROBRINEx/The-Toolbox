@@ -30,7 +30,7 @@
       // Register service worker after page load
       window.addEventListener("load", () => {
         navigator.serviceWorker
-          .register("/service-worker.js")
+          .register("service-worker.js")
           .then(() => {
             console.log("Service Worker registered successfully");
           })
